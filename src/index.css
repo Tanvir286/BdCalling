@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* ========(Root)============= */
+
+:root{
+    --banner-image: url("/public/assets/bannerbg.png");
+    --book-image: url("/public/assets/BookPage.png");
+}
+
+
+
+/*=====(Font_Family Start Here)==========*/
+
+/*Rubik font family*/
+
+@font-face {
+    font-family: "Rubik Regular";
+    src: url(/src/assets/fonts/rubik/Rubik-Regular.ttf);
+}
+@font-face {
+    font-family: "Rubik Light";
+    src: url(/src/assets/fonts/rubik/Rubik-Light.ttf);
+}
+@font-face {
+    font-family: "Rubik Medium";
+    src: url(/src/assets/fonts/rubik/Rubik-Medium.ttf);
+}
+@font-face {
+    font-family: "Rubik Blod";
+    src: url(/src/assets/fonts/rubik/Rubik-Bold.ttf);
+}
+@font-face {
+    font-family: "Rubik SemiBold";
+    src: url(/src/assets/fonts/rubik/Rubik-SemiBold.ttf);
+}
+
+
+
+/* questrial font family */
+
+@font-face {
+    font-family: "questrial Regular";
+    src: url(/src/assets/fonts/questrial/Questrial-Regular.ttf);
+}
+
+
+/*=====(Font_Family End Here)==========*/
+
+
+.custom-w-39 {
+    width: 39%;
+}
+.custom-w-60 {
+    width: 60%;
+}
+
+.add {
+    background-image: url('/public/assets/offer/offer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner {
+    background-image: url('/public/assets/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.sticky-navbar {
+    position: sticky !important;
+    top: 0;
+    z-index: 50;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; /* Ensure no horizontal scrolling */
+}
+
+
+
+/* =========(React Slick Add)===========*/
+
+.custom-dots .slick-dots li button:before {
+    font-size: 12px;
+    color: #749B3F; /* Custom dot color */
+    opacity: 1; /* Ensures the color is fully visible */
+}
+
+.custom-dots .slick-dots li.slick-active button:before {
+    color: #749B3F; /* Active dot color */
+}
+/* =========(React Slick Add)===========*/
