@@ -1,5 +1,7 @@
 
 Link: https://bd-calling.vercel.app/
+Feature: 1.Click view Deatils
+https://drive.google.com/file/d/1LMSiDVgXx7eurp0TfLuC16egjbW25c1x/view?usp=sharing
 <br/> <br/>
 হঠাৎ ঢাকায় গ্রাম থেকে অসুস্থ মামা আসার কারনে তাকে নিয়ে পিজি হাসপাতালে একদিন ছিলাম।তাই কাজ করার জন্য খুব একটা সময় পাইনি ,যতটুকু কাজ করছি ততটুকু দিলাম।তার জন্য আন্তরিক দুঃখিত, responsive করার জন্য টাইম পাইনি।
 <br/>
