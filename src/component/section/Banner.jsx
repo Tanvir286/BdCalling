@@ -12,8 +12,8 @@ import leaf from "../../../public/assets/banner/leaf.png"
 const Banner = () => {
     // Array of nav links with title and URL
     const navLinks = [
-        { name: 'Home', href: '#' },
-        { name: 'Shop', href: '#' },
+        { name: 'Home', href: '/' },
+        { name: 'Shop', href: '/shop' },
         { name: 'Services', href: '#' },
         { name: 'Contact', href: '#' }
     ];

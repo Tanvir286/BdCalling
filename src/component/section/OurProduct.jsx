@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import SectionHeader from '../layout/SectionHeader';
 import Button from '../layout/Button';
+import { Link } from 'react-router-dom';
 
 const OurProduct = () => {
 
@@ -162,9 +163,17 @@ const OurProduct = () => {
                                         <p className="text-sm text-gray-500">Stock: {product.stock}</p>
                                     </div>
 
-                                    <button className='font-rubik-regular text-lg text-black1 border w-full py-2 mt-3 hover:bg-orange hover:text-white'>
+                                    <button className='font-rubik-regular rounded-lg text-lg text-black1 border w-full py-2 mt-3 hover:bg-orange hover:text-white'>
                                         Add to cart
                                     </button>
+
+                                    <Link
+                                     to={`/product/${product.id}`}
+                                     className='font-rubik-regular  text-lg inline-block text-center text-black1 border w-full py-2 mt-3 hover:bg-slate-400 hover:text-white rounded-lg'
+                                         >
+                                      View Details
+                                       </Link>
+
                                 </div>
                             );
                         })

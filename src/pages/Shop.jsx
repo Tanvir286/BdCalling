@@ -5,15 +5,18 @@ import { FaHeart } from "react-icons/fa6";
 import { IoCartSharp } from "react-icons/io5";
 import OurProduct from '../component/section/OurProduct';
 import OurShop from '../component/section/OurShop';
+import Footer from '../component/section/Footer';
 
 const Shop = () => {
  
     const navLinks = [
-        { name: 'Home', href: '#' },
-        { name: 'Shop', href: '#' },
+        { name: 'Home', href: '/' },
+        { name: 'Shop', href: '/shop' },
         { name: 'Services', href: '#' },
         { name: 'Contact', href: '#' }
     ];
+
+    
 
     return (
 
@@ -70,6 +73,8 @@ const Shop = () => {
              <hr /> 
 
             <OurShop/>
+
+            <Footer/>
 
         </>
 
