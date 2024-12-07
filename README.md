@@ -8,5 +8,10 @@ https://drive.google.com/file/d/1LMSiDVgXx7eurp0TfLuC16egjbW25c1x/view?usp=shari
 <br/>
 আমার মোটামুটি  10+ school website (paid),university project (paid) কাজ করার অভিজ্ঞতা আছে। তাই আমায় যদি কাজ সুযোগ করে দেন আশা করি ভাল কিছু করতে পারবো ।
 <br/> <br/>
+
+Contact 
 Tanvir Ahamed
+<br/>
 01923-982877
+<br/>
+tanvirahamed1943@gmail.com
