@@ -13,7 +13,7 @@ const Banner = () => {
     // Array of nav links with title and URL
     const navLinks = [
         { name: 'Home', href: '/' },
-        { name: 'Shop', href: '/shop' },
+        { name: 'Shop', href: '#' },
         { name: 'Services', href: '#' },
         { name: 'Contact', href: '#' }
     ];
